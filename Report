@@ -1,0 +1,118 @@
+🏦 Smart Secure Banking System
+
+A console-based banking management system in C that allows users to perform essential banking operations such as account creation, deposits, withdrawals, and mini-statements.
+This project demonstrates the use of file handling, structures, and modular programming for secure data management.
+
+📘 Project Overview
+
+The Smart Secure Banking System simulates real-world banking functionalities in a simple and secure environment.
+It allows multiple users to create and manage their accounts using a 4-digit PIN for authentication.
+Each transaction is recorded and displayed through a mini-statement feature, ensuring transparency and security.
+
+🎯 Features
+
+✅ Create new bank accounts
+✅ Deposit and withdraw money
+✅ View balance and transaction history
+✅ PIN-based authentication for security
+✅ File handling for data persistence
+✅ Error handling for invalid inputs
+
+🧠 Concepts Used
+
+C Structures for account and transaction data
+
+File Handling (fopen, fprintf, fscanf) for storing user data
+
+Control Statements for logic and validation
+
+Functions and Modular Programming for code reusability
+
+Error Handling for input and data validation
+
+⚙️ System Requirements
+
+Hardware:
+
+Processor: Intel i3 or higher
+
+RAM: 2 GB minimum
+
+Storage: 200 MB free space
+
+Software:
+
+OS: Windows / Linux
+
+IDE: Code::Blocks / Turbo C / Dev-C++
+
+Compiler: GCC or any C compiler
+
+🧩 How to Run
+
+Clone the repository:
+
+git clone https://github.com/yourusername/Smart-Secure-Banking-System.git
+
+
+Navigate to the project folder:
+
+cd Smart-Secure-Banking-System
+
+
+Compile the code:
+
+gcc banking_system.c -o banking
+
+
+Run the program:
+
+./banking
+
+📊 Sample Operations
+Operation	Description	Example Input	Example Output
+Create Account	Registers new user	Name, PIN	“Account created successfully”
+Deposit	Adds money	1000	“₹1000 deposited successfully”
+Withdraw	Removes money	500	“₹500 withdrawn successfully”
+Mini Statement	Displays recent transactions	Option 4	Transaction list displayed
+🧪 Testing Summary
+Test Case	Input	Expected Output	Result
+Create new account	Account details	Account created	✅ Pass
+Deposit ₹1000	Deposit amount	Balance updated	✅ Pass
+Withdraw more than balance		“Insufficient funds”	✅ Pass
+Wrong PIN thrice	Wrong entries	“Access denied”	✅ Pass
+🔐 Error Handling
+
+Invalid or negative amounts are rejected.
+
+PIN verification required for every transaction.
+
+File read/write failures are handled with custom error messages.
+
+🏁 Conclusion
+
+The project demonstrates how C programming can be used to build a real-world banking system simulation.
+It highlights modular design, data persistence, and security concepts—all essential for practical software development.
+Future versions can include GUI features, database integration (MySQL), and multi-user networking.
+
+📚 References
+
+Let Us C – Yashavant Kanetkar
+
+Programming in ANSI C – E. Balagurusamy
+
+TutorialsPoint – www.tutorialspoint.com
+
+GeeksforGeeks – www.geeksforgeeks.org
+
+C Documentation – https://devdocs.io/c/
+
+Stack Overflow – https://stackoverflow.com
+
+👩‍💻 Contributors
+
+Developed By:
+Sharvari Nalawade & Sharvil Satpute
+Roll No.:(60)           (31)
+Under the guidance of Prof.Nikita Chaudhari Ma'am
+Academic Year: 2025–2026
